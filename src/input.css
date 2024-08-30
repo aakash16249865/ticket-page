@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* input.css or output.css */
+.bg-custom-image {
+    background-image: url('./images/ticket (2).png'); /* Path relative to the CSS file */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.bg-custom-images{
+    background-image: url('./images/color1.jpg');;
+}
+
+
+
+
+
+.image-text{
+  position:absolute
+}
